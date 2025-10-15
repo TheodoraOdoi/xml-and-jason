@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mail xmlns="http://www.abc.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:SchemaLocation="../xsd/message.xsd">
+    <to>John</to>
+    <from>Jordan</from>
+    <heading>Scheduler</heading>
+    <body>3rd March Monday, 19:30 Hrs, board meeting</body>
+</mail>

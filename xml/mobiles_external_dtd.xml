@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE mobiles SYSTEM "../dtd/mobiles.dtd">
+<mobiles>
+    <mobile>
+        <company>Samsung</company>
+        <model type="camera">Galaxy S23 Ultra</model>
+        <price>KES 150,000</price>
+        <accessories>&sk;</accessories>
+    </mobile>
+    <mobile>
+        <company>OnePlus</company>
+        <model type="camera">OnePlus 12</model>
+        <price>KES 50,000</price>
+        <accessories>&sk;, &ch;</accessories>
+    </mobile>
+    <mobile>
+        <company>Nokia</company>
+        <model type="camera">X30</model>
+        <price>KES 61,500</price>
+        <accessories>&sk;,&hp;,&ch;</accessories>
+    </mobile>
+</mobiles>

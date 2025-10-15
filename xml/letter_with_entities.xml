@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE letter [
+        <!ELEMENT to (#PCDATA)>
+        <!ELEMENT address (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ELEMENT body (#PCDATA)>
+        <!ELEMENT from (#PCDATA)>
+        <!ENTITY address "15 Downing St. Floor 1">
+        <!ENTITY city "New York">
+]>
+<!-- End of Document prolog -->
+
+<!-- Link to an external CSS file -->
+<?xml-stylesheet type="text/css" href="../css/letters.css"?>
+
+<!-- Document -->
+<letter>
+  <to>"Tom Smith"</to>
+  <address>&address;</address>
+  <city>&city;</city>
+  <body>
+    Hi! How are you?
+    The sum is &gt; $1000
+  </body>
+  <from>Arnold</from>
+</letter>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE student [ <!-- Internal Document Type Definition (DTD) -->
+    <!ELEMENT student (name, dob, bloodgroup, rollnumber)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT dob (#PCDATA)>
+    <!ELEMENT bloodgroup (#PCDATA)>
+    <!ELEMENT rollnumber (#PCDATA)>
+]>
+<!-- End of document prolog -->
+
+<!-- Document -->
+<student>
+    <name>James</name>
+    <dob>26th September, 1983</dob>
+    <bloodgroup>A Positive</bloodgroup>
+    <rollnumber>12</rollnumber>
+</student>

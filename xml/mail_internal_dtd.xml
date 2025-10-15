@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Mail Document with Internal DTD -->
+
+<!DOCTYPE mail [
+    <!ELEMENT mail (to, from, date, time, cc, bcc, subject, message, signature)>
+    <!ELEMENT to (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT time (#PCDATA)>
+    <!ELEMENT cc (#PCDATA)>
+    <!ELEMENT bcc (#PCDATA)>
+    <!ELEMENT subject (#PCDATA)>
+    <!ELEMENT message (#PCDATA)>
+    <!ELEMENT signature (#PCDATA)>
+    <!ENTITY MS "Thatz life">
+]>
+<!-- End of document prolog -->
+
+<!-- Document -->
+<mail>
+    <to>anne@xyz.com</to>
+    <from>bob@xyz.com</from>
+    <date>9th October 2025</date>
+    <time>10:00 am</time>
+    <cc></cc>
+    <bcc></bcc>
+    <subject>Meeting at main conference room</subject>
+    <message>Please join the meeting at the main conference room at 10:00 pm.</message>
+    <signature>Best regards, Bob</signature>
+</mail>

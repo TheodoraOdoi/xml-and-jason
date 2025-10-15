@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document  to style the letter.xml file */
+letter 
+{
+    font: georgia;
+    font-size: 16px;
+    color: aqua;
+    font-weight: bold;
+}
+
+to, address, city, body, form
+{
+    font: "Century Gothic";
+    color:#f80;
+    font-size: 15px;
+}

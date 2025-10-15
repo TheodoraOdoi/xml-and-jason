@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document  to style the letter.xml file */
+
+g\:groceries
+{
+    display: block;
+    font-family: 'Century Gothic', 'Courier New', Courier, monospace;
+    background-color: rgb(135, 140, 99);
+    padding: 10px;
+}
+
+g\:item
+{
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+g\:name
+{
+    font-weight: 700;
+    color: #3e5b57;
+}
+
+g\:category
+{
+    font-style: italic;
+    color: #777;
+}
+
+g\:quantity
+{
+    color: #000;
+}
+
+/* The g\: refers to an XML element with a namespace prefix */

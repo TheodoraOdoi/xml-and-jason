@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE music_library [
+    <!ELEMENT music_library (title, artist, country, price, year2002)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT artist (#PCDATA)>
+    <!ELEMENT country (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ENTITY MS "Thatz life">
+]>
+<!-- End of document prolog -->
+
+<!-- Document -->
+<music_library>
+    <title>YLO</title>
+    <artist>&MS; - Jenny Dan</artist>
+    <country>Germany</country>
+    <price>$ 12</price>
+    <year2002></year>
+</music_library>

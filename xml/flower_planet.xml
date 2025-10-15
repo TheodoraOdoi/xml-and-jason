@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlowerPlanet>
+    <Name>Rose</Name>
+    <Price>$1</Price>
+    <Description>Red in color</Description>
+    <Number>700</Number>
+</FlowerPlanet>
