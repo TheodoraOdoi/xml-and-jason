@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/library.xsd">
+    <book isbn="978-0123458-47-2">
+        <title>Learning XML</title>
+        <publisher>
+            <name>Techbooks Press</name>
+            <city>Nairobi</city>
+        </publisher>
+        <author id="au001">
+            <firstname>Aria</firstname>
+            <lastname>Hassan</lastname>
+        </author>
+        <author id="au002">
+            <firstname>Safa</firstname>
+            <lastname>Ahmed</lastname>
+        </author>
+        <description>
+            This book is a beginner-friendly guide on XML.
+            <note>Updated for XML 1.1</note>
+            <note>Includes schema exercises</note>
+        </description>
+    </book>
+
+    <book>
+        <title>Advanced XSD Concept</title>
+        <publisher>
+            <name>SchemeWorks</name>
+            <city>Mombasa</city>
+        </publisher>
+        <author id="au0003">
+            <firstname>Theo</firstname>
+            <lastname>Odoi</lastname>
+        </author>
+    </book>
+</library>
