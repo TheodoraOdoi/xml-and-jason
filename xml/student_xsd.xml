@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/student.xsd">
+    <student id="s001"> 
+        <name>Aria Hassan</name>
+        <age>23</age>
+        <grade>A</grade>
+        <email>a.hassan@edulink.ac.ke</email>
+        <joindate>2023-09-01</joindate>
+    </student>
+    <student id="s002"> 
+        <name>Theo Ayombil</name>
+        <age>20</age>
+        <grade>D</grade>
+        <email>t.ayombil@edulink.ac.ke</email>
+        <joindate>2022-01-15</joindate>
+    </student>
+    <student id="s003"> 
+        <name>Ajiam Amugsi</name>
+        <age>19</age>
+        <grade>C</grade>
+        <email>a.ajiam@edulink.ac.ke</email>
+        <joindate>2024-05-10</joindate>
+    </student>
+</students>
