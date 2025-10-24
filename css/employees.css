@@ -6,6 +6,20 @@ body
 {
     background-color: lightskyblue;
 }
+
+/* Style the page headings using a class selector */
+.page-heading {
+	color: #f00;
+	font-weight: 800;
+	font-size: 2.2em;
+	text-align: center;
+	/* font-family: 'limelightregular'; */
+}
+
+/* Underline the page headings */
+.page-heading-underline { 
+	border-bottom: medium double #0BEAF5; 
+}
  
 /* Style the data table */
 .data-table

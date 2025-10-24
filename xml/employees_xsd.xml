@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- link tyo the employee's xslt file -->
+     <?xml-stylesheet type="text/xsl" href="../xsl/employees_underpaid_below1250.xslt"?>
+
 <employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../xsd/employee.xsd">
-    <!-- link tyo the employee's xslt file -->
-     <?xml-stylesheet type="text/xsl" href="../xsl/employees.xslt"?>
+
+    
     <!-- Employee details -->
      <employee>
         <name>John Thorpe</name>
         <age>34</age>
         <department>Marketing</department>
         <language>EN</language>
-        <salary>1000</salary> <!-- Min salary supposed to be 1250-->
+        <salary>1000</salary> 
+        <!-- Min salary supposed to be 1250-->
      </employee>
      <employee>
         <name>Ajiam Amugsi</name>
